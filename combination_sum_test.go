@@ -6,8 +6,8 @@ import (
 )
 
 func Test_combinationSum(t *testing.T) {
-	candidates := []int{7, 3, 2}
-	target := 18
+	candidates := []int{2, 3, 6, 7}
+	target := 7
 	//expect := [][]int{}
 	actual := combinationSum(candidates, target)
 	log.Printf("answer: %v", actual)
